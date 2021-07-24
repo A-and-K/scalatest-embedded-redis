@@ -1,5 +1,7 @@
 import Dependencies._
 
+resolvers += Resolver.mavenLocal
+
 lazy val root = (project in file(".")).settings(
   inThisBuild(
     List(
